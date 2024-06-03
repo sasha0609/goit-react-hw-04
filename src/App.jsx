@@ -58,7 +58,7 @@ export default function App() {
   return (
     <>
       <SearchBar onSearch={getApiImage} />
-      <Toaster position="top-center" reverseOrder={false} />{" "}
+      <Toaster position="top-right" reverseOrder={false} />{" "}
       {error && <ErrorMessage />}
       {images.length > 0 && (
         <ImageGallery
